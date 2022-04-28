@@ -1,7 +1,9 @@
 const fs = require('fs');
 
+const TOTAL_NUMBER_MIDDLEWARES = 90;
+
 let configStr = 'module.exports = [\n';
-for (let i = 0; i < 200; i++) {
+for (let i = 0; i < TOTAL_NUMBER_MIDDLEWARES; i++) {
     const content = `module.exports = function (req, res, next) {
     console.log('middleware ${i}');
     next();
