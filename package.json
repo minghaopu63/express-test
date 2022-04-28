@@ -1,0 +1,25 @@
+{
+  "name": "express-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node generate-middlewares.js",
+    "clean": "rm config.js & rm -rf test-middlewares/*",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minghaopu63/express-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minghaopu63/express-test/issues"
+  },
+  "homepage": "https://github.com/minghaopu63/express-test#readme",
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}
